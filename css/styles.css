@@ -606,10 +606,21 @@ span.badge.badge-icon:hover {
   right: 5%;
 }
 
-/*** 
-
-====================================================================
-		Testimonial Section
-====================================================================
-
-***//*# sourceMappingURL=styles.css.map */
+@media (max-width: 991px) {
+  h1 {
+    font-size: 35px;
+    line-height: 47px;
+  }
+  .strategic-alliances .card-item {
+    padding: 30px;
+  }
+}
+@media (max-width: 767px) {
+  h1 {
+    font-size: 25px;
+    line-height: 27px;
+  }
+  .footer .form-wraper {
+    padding: 25px;
+  }
+}/*# sourceMappingURL=styles.css.map */
