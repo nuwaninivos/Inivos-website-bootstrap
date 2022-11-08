@@ -84,7 +84,7 @@ p {
 }
 
 .section-padding {
-  margin-top: 120px;
+  margin-top: 100px;
 }
 
 .video-wrapper .video-container {
@@ -608,19 +608,193 @@ span.badge.badge-icon:hover {
 
 @media (max-width: 991px) {
   h1 {
-    font-size: 35px;
+    font-size: 40px;
     line-height: 47px;
   }
   .strategic-alliances .card-item {
     padding: 30px;
   }
+  .card-item {
+    height: 100%;
+    min-height: 60px;
+  }
+  .why-inivos .slider-column {
+    position: relative;
+  }
+  .header {
+    background: #2a2727;
+    border-bottom: 1px solid rgba(224, 183, 48, 0.3);
+  }
+  .header .navbar-toggler {
+    border: none;
+    background: transparent !important;
+  }
+  .header .img-fluid {
+    max-width: 62%;
+  }
+  .header .navbar-toggler .icon-bar {
+    width: 30px;
+    height: 3px;
+    background-color: #B6B6B6;
+    display: block;
+    transition: all 0.2s;
+    margin-top: 4px;
+  }
+  .header .navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+  .header .navbar-toggler .middle-bar {
+    opacity: 0;
+  }
+  .header .navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+  .header .navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+  }
+  .header .navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+  }
+  .header .navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+  }
+  .header .container {
+    padding: 0;
+    max-width: initial;
+  }
+  .header .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    padding-left: 150px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    transition: all 0.3s ease;
+    /* display: block; */
+    z-index: -1;
+    height: 100vh;
+    padding-bottom: 1000px;
+    font-size: 30px;
+    padding-top: 50px;
+  }
+  .header .navbar-collapse.collapsing {
+    height: auto !important;
+    margin-right: 50%;
+    transition: all 0.3s ease;
+    display: block;
+  }
+  .header .navbar-collapse.show {
+    left: 0%;
+    transition: all 0.3s ease;
+    background: #fef7ff;
+  }
+  .header .img-fluid {
+    width: 200px;
+    margin-left: 40px;
+  }
 }
 @media (max-width: 767px) {
   h1 {
-    font-size: 25px;
-    line-height: 27px;
+    font-size: 40px;
   }
   .footer .form-wraper {
     padding: 25px;
+  }
+  .hero-banner .hero-caption h1 span {
+    font-size: 30px;
+  }
+  .section-title h3 {
+    margin-top: 20px;
+  }
+  .img-fluid {
+    margin-top: 20px;
+  }
+  .why-inivos .slider-column {
+    position: relative;
+    right: 0;
+  }
+  .stats .stat-outer:not(:last-child) {
+    border-right: none;
+  }
+  .why-inivos {
+    padding: 45px 0px 45px 0px;
+    position: relative;
+  }
+  .header {
+    background: #2a2727;
+    border-bottom: 1px solid rgba(224, 183, 48, 0.3);
+  }
+  .header .navbar-toggler {
+    border: none;
+    background: transparent !important;
+    margin-top: 15px;
+  }
+  .header .img-fluid {
+    max-width: 62%;
+    width: 130px;
+    margin-left: 15px;
+  }
+  .header .navbar-toggler .icon-bar {
+    width: 22px;
+    height: 2px;
+    background-color: #B6B6B6;
+    display: block;
+    transition: all 0.2s;
+    margin-top: 4px;
+  }
+  .header .navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+  .header .navbar-toggler .middle-bar {
+    opacity: 0;
+  }
+  .header .navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+  .header .navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+  }
+  .header .navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+  }
+  .header .navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+  }
+  .header .container {
+    padding: 0;
+    max-width: initial;
+  }
+  .header .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    transition: all 0.3s ease;
+    /* display: block; */
+    z-index: -1;
+    height: 100vh;
+    padding-bottom: 1000px;
+  }
+  .header .navbar-collapse.collapsing {
+    height: auto !important;
+    margin-right: 50%;
+    transition: all 0.3s ease;
+    display: block;
+  }
+  .header .navbar-collapse.show {
+    left: 0%;
+    transition: all 0.3s ease;
+    background: #fef7ff;
+  }
+  .stats .number h2 {
+    font-size: 40px;
   }
 }/*# sourceMappingURL=styles.css.map */
